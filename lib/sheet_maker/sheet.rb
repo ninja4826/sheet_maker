@@ -1,8 +1,9 @@
 module SheetMaker
   class Sheet
     def initialize
-      @book = RubyXL::Workbook.new
-      @sheet = @book[0]
+      # book = RubyXL::Parser.parse('template/timesheet.xlsx')
+      # sheet = book[0]
+      
     end
   end
 end

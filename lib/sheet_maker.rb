@@ -1,9 +1,11 @@
 require "sheet_maker/version"
+# require 'rubyXL'
+require 'sheet_maker/sheet.rb'
 
 module SheetMaker
   def self.create
-    book = RubyXL::Workbook.new
-    sheet = book[0]
+    # book = RubyXL::Workbook.new
+    # sheet = book[0]
     headers = [
       [
         'EMPLOYEE: ',
